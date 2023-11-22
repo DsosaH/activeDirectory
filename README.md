@@ -48,3 +48,20 @@ Now if We ping, there should be a proper reply, so We are good to continue.
 ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/cca81786-ad80-4d9b-b2f3-b5a486ce5e67)
   
 </p>
+<h2>Installing Active Directory</h2>
+<p>
+  Now that We are sure our VMs are working correctly, We can proceed to Install Active Directory inside our DC.<br>
+  In the Server Manager Window, **We click on Add Roles and Features** option this will open a new window.<br>
+  
+  ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/53d248ff-102c-49d9-9b1d-0dd932d04a23)
+
+  Leave all as default until you reach Server Roles. Here be sure to check **Active Directory Domain Services** before continuing. Then just keep clicking next and then install at the end.<br>
+
+  ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/f0bd044d-a9a3-47ba-a782-9fe0426ff0e5)<br>
+
+  Now We need to promote this server to a proper **Domain Controller**. After the installation finishes, a notification should appear in the upper right corner of the window with the option tho begin the promotion. Click there to continue.<br>
+  
+  ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/64ea9c75-800b-40ec-ad75-c9f8e22b95cd)
+
+  
+</p>
