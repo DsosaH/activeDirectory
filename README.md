@@ -36,7 +36,15 @@ By this mean, I'll demonstrate how a Microsoft Active Directory server can be in
 Inside ipconfig, simply change dynamic to static and take note of the IP that is assigned because it'll be necessary for the future. Save and now the IPv4 should appear as Static.<br>
 
 ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/97479b5a-14c4-4645-891e-d28d00ac2e06)
-![image](https://github.com/DsosaH/activeDirectory/assets/148100125/0c672a9b-2dad-48cf-92ef-13c3def1897b)
+![image](https://github.com/DsosaH/activeDirectory/assets/148100125/0c672a9b-2dad-48cf-92ef-13c3def1897b)<br/>
 
+Now in order to ensure that connection is working correctly, we are going to use ICMP from the Client's VM to try and ping the DC.<br>
+If we tried to ping the DC right now, We'd have no response because the DC's Firewall is not allowing inbound ICMPv4. To fix this We need to go into our DC's Firewall Settings and enable the inbound rule to allow ICMPv4 first. Be sure that both of the shown rules are enabled. <br>
+
+![image](https://github.com/DsosaH/activeDirectory/assets/148100125/1fd73648-270a-40e8-b041-5827a3ab3357)
+
+Now if We ping, there should be a proper reply, so We are good to continue.
+
+![image](https://github.com/DsosaH/activeDirectory/assets/148100125/cca81786-ad80-4d9b-b2f3-b5a486ce5e67)
   
 </p>
