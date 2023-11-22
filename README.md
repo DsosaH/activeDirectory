@@ -72,8 +72,16 @@ Now if We ping, there should be a proper reply, so We are good to continue.
   ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/60d4e8ac-493a-463f-83ae-d87b00f4fe09)
 
   Now just let everything default, click next on all and then install. After the installation is over restart the VM.<br>
-  Now, instead of entering by using our normal credential, enter by using your _domainname/username_ as shown in the image below.<br>
+  Now, instead of entering by using our normal credential, enter by using your _domainname/username_ as shown in the image below. If you have no proble to log like this, then we can continue. <br>
 
   ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/c96c6e5c-d4ff-4a06-b940-e369ea5c12a3)
+
+</p>
+<h2>Active Directory Configuration</h2>
+
+<p>
+  The next step is to add users to our Active Directory. Go to your search bar and look for **Active Directory Users and Computers** and open it.<br>
+
+  ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/c20aa29b-1fd9-46b8-b57d-da5285e764b0)
 
 </p>
