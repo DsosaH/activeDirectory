@@ -95,6 +95,13 @@ Now if We ping, there should be a proper reply, so We are good to continue.
   ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/6d2851e8-0a9d-463b-a1f2-3766bce947f6)
   ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/0a64667f-9eed-44e4-939b-dc038dff3ba7)
 
-  
+  In order for this user to have the correct permissions, We'll add it to the correct **Security Group**. Right click on the user you want to add and select properties, inside, go to the tab _Member Of_ and click add.<br>
+
+  ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/e561fa73-8e2a-4f76-890d-6b115c467412)
+
+  There, write _Domain_ and the click _Check Names_, select _Domain Admins_ and apply. Now the User in the correct group so it has the correct permissions.<br>
+
+  ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/62d68eee-05bc-4cac-817a-ca418ff644a2)
+  ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/ce28c470-d1ed-45ea-a162-1383bca86d8b)
 
 </p>
