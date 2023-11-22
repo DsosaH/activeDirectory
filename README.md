@@ -117,4 +117,26 @@ Now if We ping, there should be a proper reply, so We are good to continue.
 
   ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/fd1f5544-3729-45d4-95db-7fc5b0f53edf)
 
+  Go to your Client VM and click on Restart.<br>
+
+  ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/f1952756-d69d-481e-8f7a-0c32a19f2481)
+
+  After the VM finishes restarting, We'll access it with Remote Desktop using our original user. Once inside, open system settings, go to the About tab and click on _Rename This PC_.<br>
+
+  ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/2cdd80dd-9cbe-459c-b1c6-f6ff56278f2d)
+
+  Inside the window, click on _Change_ to open a new window, there click on _Domain_ and write your domain name. Enter your credentials and now the Vm should be inside the domain. The VM will restart.<br>
+
+  ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/5eef0cb7-6334-4f32-be94-21065994e000)
+  ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/c8a92ebe-4bdc-4899-9f64-abcaca480cca)
+
+  Go to your DC VM and inside Active Directory check if the Client is now in the domain like in the image below.<br>
+
+  ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/e6d96090-864f-4671-b5bb-a32ca30ded02)
+
+  Now that the the Client VM belong to the Domain, users can connect, however right now only Admin Users can log in. In order to change this, We'll log in to the Client's Vm as one of our admin users and modify it so normal users can also access.<br>
+  First we log in using **Remote Desktop**, then go to the System Settings and select the **Remote Desktop** tab, then click on _Select users that can remotely access this PC_.<br>
+
+  ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/0f51a6e7-3782-47ef-aa20-46ab5ad4ffa9)
+
 </p>
