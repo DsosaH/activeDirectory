@@ -22,7 +22,7 @@ By this mean, I'll demonstrate how a Microsoft Active Directory server can be in
   We need to make sure that our VMs are using the correct configuration and Vnet in order for this to work properly.<br>
   First, We'll create our **Domain Controller**, this VM will act a our main server where all the data will be stored, for this we'll select **Windows Server 2022** as our operating system.
   
-  ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/4d92e725-1ba2-4c3d-bcf1-aac445f46a08)
+  ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/4d92e725-1ba2-4c3d-bcf1-aac445f46a08) <br/>
 
-  
+  Create another VM, but make this one a normal **Windows 10 OS**, this one will be our VM acting as a client of the **Active Directory DC**
 </p>
