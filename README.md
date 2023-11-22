@@ -104,4 +104,17 @@ Now if We ping, there should be a proper reply, so We are good to continue.
   ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/62d68eee-05bc-4cac-817a-ca418ff644a2)
   ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/ce28c470-d1ed-45ea-a162-1383bca86d8b)
 
+  Now that We have an official Admin, we can log in with this user and have all the capabilities to make important changes in the system.<br>
+  
+  ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/83e71c78-1a86-4e99-8a10-355f8fc243fb)
+
+</p><br/>
+
+<h2>Joining Client to Domain</h2>
+<p>
+  With our DC functioning, We can proceed to join our Client VM to our Domain and assign it a User and Security Group. But first we need to change some of our Client's VM settings so that it's DNS is assigned by our DC and not by the Vnet.<br>
+  Go to your Client's VM in Azure and enter the Network Settings, select you Client Network and there go to the DNS Servers, in there, select Custom and write the private IP from your DC. Save and now your screen should appear like below.<br>
+
+  ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/fd1f5544-3729-45d4-95db-7fc5b0f53edf)
+
 </p>
