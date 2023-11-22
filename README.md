@@ -89,6 +89,12 @@ Now if We ping, there should be a proper reply, so We are good to continue.
 
   ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/ad43c608-5084-4adf-9961-7def8da1d397)
 
+  Users are created very similarly. In this example, I'll create a user inside the **_ADMINS** OS by right clicking on it and going _New->User_. Assign the credentials of your choice and watch your new user appear inside of the OS.<br>
+
+  ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/eab5a629-38f7-4192-a629-cbf1a447ee81)
+  ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/6d2851e8-0a9d-463b-a1f2-3766bce947f6)
+  ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/0a64667f-9eed-44e4-939b-dc038dff3ba7)
+
   
 
 </p>
