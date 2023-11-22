@@ -31,7 +31,12 @@ By this mean, I'll demonstrate how a Microsoft Active Directory server can be in
   
   Then we'll go into the IP Configurations and then into the IPConfig of type IPv4 that we have added automatically. As you can see, by default, this IP is set to Dynamic, however, in order for the clients VM to connect and not worry about getting out of the DC, we need to make the DC's IP Static, this way our IP will stay always the same and no need to enter a new one will be needed in the future.
   
-  ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/f03659e1-bcfc-451e-bbf8-d5f66b311143)
+  ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/f03659e1-bcfc-451e-bbf8-d5f66b311143)<br>
+
+Inside ipconfig, simply change dynamic to static and take note of the IP that is assigned because it'll be necessary for the future. Save and now the IPv4 should appear as Static.<br>
+
+![image](https://github.com/DsosaH/activeDirectory/assets/148100125/97479b5a-14c4-4645-891e-d28d00ac2e06)
+![image](https://github.com/DsosaH/activeDirectory/assets/148100125/0c672a9b-2dad-48cf-92ef-13c3def1897b)
 
   
 </p>
