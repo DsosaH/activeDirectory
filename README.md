@@ -59,9 +59,21 @@ Now if We ping, there should be a proper reply, so We are good to continue.
 
   ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/f0bd044d-a9a3-47ba-a782-9fe0426ff0e5)<br>
 
-  Now We need to promote this server to a proper **Domain Controller**. After the installation finishes, a notification should appear in the upper right corner of the window with the option tho begin the promotion. Click there to continue.<br>
+  Now We need to promote this server to a proper **Domain Controller**. After the installation finishes, a notification should appear in the upper right corner of the window with the option to begin the promotion. Click there to continue.<br>
   
   ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/64ea9c75-800b-40ec-ad75-c9f8e22b95cd)
 
-  
+  In the new window that opens, We'll check to add a new forest and choose the name of our domain. This is a private address, so it won't appear in searches unless you are inside the domain, therefore it can be whatever you please.
+
+  ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/6e107c48-fd45-4b50-b3ba-a6b1e40f013c)
+
+  Next, assignate a password for the **Domain Controller Options**.
+
+  ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/60d4e8ac-493a-463f-83ae-d87b00f4fe09)
+
+  Now just let everything default, click next on all and then install. After the installation is over restart the VM.<br>
+  Now, instead of entering by using our normal credential, enter by using your _domainname/username_ as shown in the image below.<br>
+
+  ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/c96c6e5c-d4ff-4a06-b940-e369ea5c12a3)
+
 </p>
