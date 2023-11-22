@@ -145,9 +145,34 @@ Now if We ping, there should be a proper reply, so We are good to continue.
 
 </p><br/>
 
-<h2>Using Active Directory</h2>
+<h2>Uses of Active Directory</h2>
 <p>
   Now that we have active directory running normaly, we can test how the experience varies depending of the current user that is using the Client's VM. I'll show how the admins can restrict what can be done, accessed and by whom.<br>
-  In the DC's _C:\_ 4 folder were created, _read-access_, _write-access_, _no-access_ and _accounting_
+  In the DC's _C:\_ 4 folder were created, _read-access_, _write-access_ and _no-access_.
+
+  ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/645f9ef0-c967-45a8-8e3d-518c27479aff)
+
+  Permissions and shares were changed using the properties according to the name of the folders as follows:
+  - Folder: “read-access”, Group: “Domain Users”, Permission: “Read”
+  - Folder: “write-access”,  Group: “Domain Users”, Permissions: “Read/Write”
+  - “no-access”, Group: “Domain Admins”, “Permissions: “Read/Write”<br/>
   
+  By doing this, the admin has decided that the first folder can be seen but not modified by users, the second can be seen and modified by users and the third can only be seen and modified by admins.<br>
+  If use the Remote Desktop to access as a user and then go to the folders location, we can observe the clear difference between each of them.<br>
+
+  The _read-access_ folder will only let us watch it's contents but not modify them or add new one.<br>
+
+  ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/0f11a0d8-d644-465c-b6ae-24ebc5ab8e91)
+
+  The write-access lets us modify the file already there and even create a one of our own.<br>
+  
+  ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/81d3e22a-fa7b-4b3a-b4b5-1b5f3276da3b)
+
+  And finally the no-access, as the name indicates, cannot even be accessed by a normal user.<br>
+  
+  ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/80e2656d-9c2b-4ee2-9edf-fa720f39ecd4)
+
+  
+
+
 </p>
