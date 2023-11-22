@@ -139,4 +139,15 @@ Now if We ping, there should be a proper reply, so We are good to continue.
 
   ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/0f51a6e7-3782-47ef-aa20-46ab5ad4ffa9)
 
+  Here click add and check for the name domain users, click ok and now normal users can log in.<br>
+
+  ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/79af6fae-7b36-44ed-9df9-ad716fae2c48)
+
+</p><br/>
+
+<h2>Using Active Directory</h2>
+<p>
+  Now that we have active directory running normaly, we can test how the experience varies depending of the current user that is using the Client's VM. I'll show how the admins can restrict what can be done, accessed and by whom.<br>
+  In the DC's _C:\_ 4 folder were created, _read-access_, _write-access_, _no-access_ and _accounting_
+  
 </p>
