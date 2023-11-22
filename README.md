@@ -24,5 +24,14 @@ By this mean, I'll demonstrate how a Microsoft Active Directory server can be in
   
   ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/4d92e725-1ba2-4c3d-bcf1-aac445f46a08) <br/>
 
-  Create another VM, but make this one a normal **Windows 10 OS**, this one will be our VM acting as a client of the **Active Directory DC**
+  Create another VM, but make this one a normal **Windows 10 OS**, this one will be our VM acting as a client of the **Active Directory DC**. Make sure that both VMs are inside the same Vnet group, this is very important.<br>
+  Once both VMs are deployed, We'll need to make some changes to ensure correct connection. For this we simply go to our DC VM's Network Settings and select our Network Interface.<br>
+
+  ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/50c4c7a2-e476-4bd2-9030-45abebe6a715) <br>
+  
+  Then we'll go into the IP Configurations and then into the IPConfig of type IPv4 that we have added automatically. As you can see, by default, this IP is set to Dynamic, however, in order for the clients VM to connect and not worry about getting out of the DC, we need to make the DC's IP Static, this way our IP will stay always the same and no need to enter a new one will be needed in the future.
+  
+  ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/f03659e1-bcfc-451e-bbf8-d5f66b311143)
+
+  
 </p>
