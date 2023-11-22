@@ -172,7 +172,6 @@ Now if We ping, there should be a proper reply, so We are good to continue.
   
   ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/80e2656d-9c2b-4ee2-9edf-fa720f39ecd4)
 
-  
-
+  You can even create your own security groups diferent from users and admins, this way you can adjust who in the network can access what and it won't matter which PC they are using as long as it belongs to the correct Domain.
 
 </p>
