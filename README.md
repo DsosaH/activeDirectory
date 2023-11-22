@@ -81,7 +81,14 @@ Now if We ping, there should be a proper reply, so We are good to continue.
 
 <p>
   The next step is to add users to our Active Directory. Go to your search bar and look for **Active Directory Users and Computers** and open it.<br>
+  Inside this window, You'll see the domain that was created and all the **Organizational Units** that come with it by default. Here is where We can create new organizational units to store, employees, clients or whatever We need. 
+  
+  ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/c20aa29b-1fd9-46b8-b57d-da5285e764b0)<br>
 
-  ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/c20aa29b-1fd9-46b8-b57d-da5285e764b0)
+  By right clicking on our domain and going _New->Organizational Unit_, We can create new OUs to store our users. In this case I created 2 as an example.<br>
+
+  ![image](https://github.com/DsosaH/activeDirectory/assets/148100125/ad43c608-5084-4adf-9961-7def8da1d397)
+
+  
 
 </p>
