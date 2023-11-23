@@ -3,7 +3,7 @@
   ![image](https://ticgrup.com/wp-content/uploads/2022/02/Que-es-Active-Directory_ticgrup.jpg)
 
 </p>
-<h1>Using Azure to create an On-premises configiuration of Active Directory</h1>
+<h1>Using Azure to create an On-premises configuration of Active Directory</h1>
 By this mean, I'll demonstrate how a Microsoft Active Directory server can be installed and used by using Azure Virtual Machines as the premises.<br />
 
 <h2>Environments and Technologies Used</h2>
